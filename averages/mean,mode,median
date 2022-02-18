@@ -1,0 +1,14 @@
+#18/02/2022
+#Statistics
+#To find averages of Christmas exams
+
+import statistics
+results = [94,77,51,91,95,79,77]
+
+mean= statistics.mean(results)
+mode= statistics.mode(results)
+median= statistics.median(results)
+
+print (mean)
+print (mode)
+print (median)
